@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gen Password</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="radio-container">
+          <label for="easy">Easy</label>
+          <input type="radio" name="level" id="easy">
+          <label for="medium">Medium</label>
+          <input type="radio" name="level" id="medium">
+          <label for="hard">Hard</label>
+          <input type="radio" name="level" id="hard">
+        </div>
+        <div class="password-container">
+          <label for="password">Password</label>
+          <input type="text" name="password" id="password">
+          <button class="genButton" onclick="genButton()">Generate</button>
+          
+        </div>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>
